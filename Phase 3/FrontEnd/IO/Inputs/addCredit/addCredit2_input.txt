@@ -1,0 +1,6 @@
+login
+buystduser
+addCredit
+100
+logout
+quit

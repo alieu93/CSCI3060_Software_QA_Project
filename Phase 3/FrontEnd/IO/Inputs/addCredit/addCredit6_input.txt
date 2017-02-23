@@ -1,0 +1,6 @@
+login
+admin
+addCredit
+fakeuser001
+logout
+quit

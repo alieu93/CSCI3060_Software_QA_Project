@@ -1,0 +1,8 @@
+login
+sellstduser
+sell
+testsellevent2
+100.00
+10
+logout
+quit

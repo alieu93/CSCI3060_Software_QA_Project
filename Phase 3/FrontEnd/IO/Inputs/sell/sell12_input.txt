@@ -1,0 +1,6 @@
+login
+sellstduser
+sell
+testsellevent1234567890abc
+logout
+quit

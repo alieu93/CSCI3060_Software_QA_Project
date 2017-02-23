@@ -1,0 +1,7 @@
+login
+admin
+create
+adminuser001
+AA
+logout
+quit

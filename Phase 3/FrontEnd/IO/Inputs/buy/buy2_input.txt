@@ -1,0 +1,9 @@
+login
+admin
+buy
+testsellevent
+1
+sellstduser
+y
+logout
+quit

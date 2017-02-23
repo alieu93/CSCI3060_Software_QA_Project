@@ -1,0 +1,9 @@
+login
+buystduser
+buy
+testsellevent
+1
+sellstduser
+y
+logout
+quit

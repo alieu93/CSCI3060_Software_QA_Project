@@ -1,0 +1,7 @@
+login
+buystduser
+buy
+testnoticksev
+4
+logout
+quit

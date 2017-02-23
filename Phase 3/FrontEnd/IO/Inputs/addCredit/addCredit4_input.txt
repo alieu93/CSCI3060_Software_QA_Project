@@ -1,0 +1,6 @@
+login
+fullstduser
+addCredit
+100
+logout
+quit

@@ -1,0 +1,6 @@
+login
+sellstduser
+addCredit
+100
+logout
+quit

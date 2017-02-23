@@ -1,0 +1,5 @@
+login
+fullstduser
+delete
+logout
+quit

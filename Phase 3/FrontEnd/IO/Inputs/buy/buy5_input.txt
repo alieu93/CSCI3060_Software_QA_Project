@@ -1,0 +1,6 @@
+login
+buystduser
+buy
+fakesellevent
+logout
+quit

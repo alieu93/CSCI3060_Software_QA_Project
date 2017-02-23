@@ -1,0 +1,26 @@
+Known broken tests:
+
+Refund5 - Does not handle negative numbers (?)
+	- ** Fixed by implementing a check for negative and zero numbers **
+
+Create2 - Does not catch only alphanumeric numbers
+	- ** Fixed by implementing something that checks for alphanumeric **
+
+AddCredit2,3,4 - Does not catch that they are not admins and still prompts to enter a username despite them not being admins, causing errors
+	- ** Should be fixed, by adding in a check **
+
+buy: 
+	- Transactions don't seem to subtract money from current credits of the current user
+	- Transactions don't record down the amount of tickets bought and cost per ticket for that transaction for the DTF
+		- ** Both should be fixed, added in the proper syntax for it **
+
+	- buy6: Does not check if there are less tickets than expected
+		- ** Should be fixed, added in a check for it **
+	- buy9: Does not check first if event name exceeds 25 characters
+		- ** Fixed, added in a check for it
+	
+	
+sell:
+	- DTF does not write seller's name on DTF line
+		- sell2, 3, 4, 7, 10, 11
+		- ** Fixed by correcting syntax **

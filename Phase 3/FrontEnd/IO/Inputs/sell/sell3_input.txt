@@ -1,0 +1,8 @@
+login
+fullstduser
+sell
+testfullevent
+10.00
+10
+logout
+quit

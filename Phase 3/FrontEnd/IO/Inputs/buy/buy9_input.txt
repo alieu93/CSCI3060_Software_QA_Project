@@ -1,0 +1,6 @@
+login
+admin
+buy
+testsellevent123456789123456789
+logout
+quit

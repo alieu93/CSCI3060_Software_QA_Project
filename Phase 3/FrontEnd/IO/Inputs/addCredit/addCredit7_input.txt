@@ -1,0 +1,7 @@
+login
+admin
+addCredit
+fullstduser
+-100
+logout
+quit
