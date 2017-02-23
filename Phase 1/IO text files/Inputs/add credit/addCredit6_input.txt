@@ -1,0 +1,7 @@
+addCredit6 input file:
+
+login
+admin
+addCredit
+fakeuser001
+logout

@@ -1,0 +1,10 @@
+buy2 input:
+
+login
+admin
+buy
+testsellevent
+1
+sellstduser
+yes
+logout

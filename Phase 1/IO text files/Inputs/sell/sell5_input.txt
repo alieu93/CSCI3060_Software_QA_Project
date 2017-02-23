@@ -1,0 +1,8 @@
+sell5 input:
+
+login
+sellstduser
+sell
+testsellevent
+-10.00
+logout

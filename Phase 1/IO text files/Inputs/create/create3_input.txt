@@ -1,0 +1,7 @@
+create3 input file:
+
+login
+admin
+create
+usernamemorethan15chars
+logout

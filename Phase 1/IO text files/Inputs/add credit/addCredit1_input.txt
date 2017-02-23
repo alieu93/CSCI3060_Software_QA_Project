@@ -1,0 +1,8 @@
+addCredit1 input file:
+
+login
+admin
+addCredit
+stduser2
+100
+logout

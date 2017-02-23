@@ -1,0 +1,7 @@
+delete5 input:
+
+login
+admin
+delete
+nonexistinguser
+logout

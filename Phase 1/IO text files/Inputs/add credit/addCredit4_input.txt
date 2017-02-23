@@ -1,0 +1,7 @@
+addCredit4 input file:
+
+login
+fullstduser
+addCredit
+100
+logout

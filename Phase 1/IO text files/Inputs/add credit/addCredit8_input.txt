@@ -1,0 +1,7 @@
+addCredit8 input file:
+
+login
+stdbuyuser
+addCredit
+900
+logout

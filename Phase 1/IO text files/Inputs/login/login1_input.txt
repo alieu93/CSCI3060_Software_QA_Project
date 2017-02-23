@@ -1,0 +1,5 @@
+login1 input file:
+
+login
+admin
+logout

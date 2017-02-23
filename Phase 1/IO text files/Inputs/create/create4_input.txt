@@ -1,0 +1,8 @@
+create4 input file:
+
+login
+admin
+create
+adminuser001
+admin
+logout

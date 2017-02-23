@@ -1,0 +1,9 @@
+sell9 input:
+
+login
+sellstduser
+sell
+testsellevent
+100.00
+500
+logout

@@ -1,0 +1,17 @@
+00_admin___________AA_000000000
+
+00_buystduser_______BS_000000000
+
+00_fullstduser______FS_000000000
+
+00_sellstduser______SS_000000000
+
+05_buystduser_____sellstduser______000001000
+
+
+03_testfullevent_______fullstduser___010_001000
+
+04_testfullevent_______sellstduser__
+
+15 UU
+15 SS

@@ -1,0 +1,10 @@
+buy8 input:
+
+login
+admin
+buy
+testsellevent
+5
+sellstduser
+yes
+logout

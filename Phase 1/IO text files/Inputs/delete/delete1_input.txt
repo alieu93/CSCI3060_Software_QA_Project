@@ -1,0 +1,7 @@
+delete1 input:
+
+login
+admin
+delete
+user001
+logout

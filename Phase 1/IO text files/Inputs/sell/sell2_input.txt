@@ -1,0 +1,9 @@
+sell2 input:
+
+login
+admin
+sell
+testadminevent
+10.00
+10
+logout

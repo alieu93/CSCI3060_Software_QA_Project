@@ -1,0 +1,6 @@
+delete4 input:
+
+login
+username
+delete
+logout

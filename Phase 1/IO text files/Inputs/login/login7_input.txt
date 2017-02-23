@@ -1,0 +1,6 @@
+login7 input file:
+
+login
+fullstduser
+login
+logout

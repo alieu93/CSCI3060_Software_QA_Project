@@ -1,0 +1,7 @@
+buy9 input:
+
+login
+admin
+buy
+testsellevent123456789123456789
+logout

@@ -1,0 +1,7 @@
+addCredit2 input file:
+
+login
+buystduser
+addCredit
+100
+logout

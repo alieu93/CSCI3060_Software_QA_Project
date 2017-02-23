@@ -1,0 +1,5 @@
+login6 input file:
+
+login
+sellstduser
+logout

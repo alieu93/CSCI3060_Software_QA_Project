@@ -1,0 +1,7 @@
+sell12 input:
+
+login
+sellstduser
+sell
+testsellevent1234567890abc
+logout

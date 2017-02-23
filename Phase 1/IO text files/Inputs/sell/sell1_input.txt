@@ -1,0 +1,6 @@
+sell1 input:
+
+login
+buystduser
+sell
+logout

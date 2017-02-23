@@ -1,0 +1,9 @@
+sell3 input:
+
+login
+fullstduser
+sell
+testfullevent
+10.00
+10
+logout

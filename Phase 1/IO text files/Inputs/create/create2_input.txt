@@ -1,0 +1,7 @@
+create1 input file:
+
+login
+admin
+create
+user%name
+logout

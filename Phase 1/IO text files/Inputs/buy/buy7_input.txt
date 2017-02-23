@@ -1,0 +1,9 @@
+buy7 input:
+
+login
+buystduser
+buy
+testsellevent
+5
+sellstduser
+logout

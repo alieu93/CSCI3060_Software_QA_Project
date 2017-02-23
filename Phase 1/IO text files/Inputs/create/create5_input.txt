@@ -1,0 +1,8 @@
+create5 input file:
+
+login
+admin
+create
+stduser2
+full
+logout

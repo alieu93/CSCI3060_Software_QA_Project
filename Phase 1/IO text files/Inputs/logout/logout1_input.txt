@@ -1,0 +1,5 @@
+logout1 input file:
+
+login
+fullstduser
+logout

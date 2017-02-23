@@ -1,0 +1,10 @@
+buy1 input:
+
+login
+fullstduser
+buy
+testsellevent
+1
+sellstduser
+yes
+logout

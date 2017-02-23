@@ -1,0 +1,8 @@
+sell6 input:
+
+login
+sellstduser
+sell
+testsellevent
+100000
+logout

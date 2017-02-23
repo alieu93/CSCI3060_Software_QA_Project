@@ -1,0 +1,7 @@
+buy5 input:
+
+login
+buystduser
+buy
+fakesellevent
+logout

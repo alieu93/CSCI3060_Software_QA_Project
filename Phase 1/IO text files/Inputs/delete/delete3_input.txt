@@ -1,0 +1,7 @@
+delete3 input:
+
+login
+admin
+delete
+username
+logout
