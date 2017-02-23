@@ -1,0 +1,53 @@
+FindBugs:
+
+Bad practice:
+-------------
+- Stream not closed on all paths:
+	- Method may fail to close stream (3):
+		- BackEnd.readDTF may fail to close stream
+		- BackEnd.readUAF may fail to close stream
+		- BackEnd.readATF may fail to close stream
+		(All fixed to rearranging code so we can close those streams)
+		
+	- Method may fail to close stream on exception
+		- BackEnd.BackEnd.readDTF may fail to close stream on exception
+		- BackEnd.BackEnd.readUAF may fail to close stream on exception
+		- BackEnd.BackEnd.readATF may fail to close stream on exception
+		- BackEnd.MakeNewFiles.writeToUAF may fail to close stream on exception
+		- BackEnd.MakeNewFiles.writeToATF may fail to close stream on exception
+		(No fixing needed since the program will not continue if a problem occurs and we assume that errorneous files will almost never occur unless the files get corrupted)
+	
+Internalization:
+----------------
+- Dubious Method Used:
+	- Reliance on default encoding:
+		- Found Reliance on default encoding in BackEnd.BackEnd.readDTF: new java.io.InputStreamReader (Also for readUAF, readATF)
+		- Found Reliance on default encoding in BackEnd.BackEnd.MakeNewFiles.writeToUAF: New java.io.FileWriter (Also for writeToATF)
+		(No fixing required since the default encoding here is suitable for what we are using it for)
+		
+		
+Performance:
+--------------
+- Dubious Method Used:
+	- Method invokes toString() method on a string
+		- BackEnd.MakeNewFiles.addCredit(string) invokes toString method on a String
+		(Fixed by removing "toString()"
+		
+
+		
+Dodgy Code:
+-------------
+- Dead Local Store
+	- Dead store to local variable
+		- Multiple dead store to err in code (to output an fatal/constraint error to the user)(Not fixed because that's needed in case of any errors that occur)
+		- Multiple dead store to "applyTest" in BackEnd.MakeNewFilesTest (writeToUAF and writeToATF)(Not fixed because we need those to run our tests)
+		- Dead store to i in BackEnd.MakeNewFiles.delete (No fixing needed, it's a loop that is needed to iterate through a list)
+		
+		
+- Misuse of static fields:
+	- Multiple write to static field (All methods in ErrorLog, several methods in MakeNewFiles) (Cannot fix these since for ErrorLog, we need those for outputting an error and for the MakeNewFiles ones, we need those to run our tests)
+	
+- Null pointer deference
+	- Possible null pointer dereference due to return value of called method
+		- For BackEnd.BackEnd.readDTF(String) (Not needed since we'll assume that there will always be files present in directory and if there aren't, then the entire program will not work anyway)
+		

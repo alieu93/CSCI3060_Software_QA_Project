@@ -1,0 +1,27 @@
+List of errors found:
+
+Entire program: Revamped MakeNewFiles by moving code around so the constructor for makenewfiles doesn't call ApplyTransactions, now we can call it in ApplyTransactions manually without it being called automatically.
+
+ApplyTransactions: Added return false to all switch cases
+
+Delete: Substring(3, 17) or whatever, error in parsing substring, fixed that
+	- Turns out that the iterator for deleting names just deleted everything, fixed it so it actually resized the arraylist after deleting the specified username
+	- Check for error did return false when it is actually false
+	
+	
+Sell: Changed the check for existing sell event since something like "test" and "testevent" would be considered the same due to "testevent" having "test" in it
+
+Buy: Added a check for the event existing or not
+
+Logout: Added a check for incorrect logout username
+
+
+WritetoUAF and WritetoATF: Modified them so they can take in a string for the filename, just so we can test for it as opposed to having a hardcoded filename before
+
+
+
+BackEnd has been modified:
+	- Modified each of the read functions (readDTF, readUAF, readATF) such that they'll have to take a string for the filename. This is just so we can test for missing files
+	- Modified main method so it can take arguments just for the sake of testing and statement coverage for the errorlog parts.
+	
+	
