@@ -1,0 +1,3 @@
+testevent___________admin___________100_000100
+testsellevent_______sellstduser_____080_000050
+testnoticksev_______sellstduser_____000_000050

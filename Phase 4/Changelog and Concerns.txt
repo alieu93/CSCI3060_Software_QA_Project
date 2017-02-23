@@ -1,0 +1,10 @@
+- Changed format such that we no longer call "mainMenu()", instead, we just return
+
+- paddingSpace has been changed to just being padding up to 13 for usernames, this need clarification
+	- Update: changed to 15 for both, majority seems to be 15
+
+- As a result, our currently existing ATF now has incorrect lengths (13 before), fixed it though
+
+- Buy transaction for DTF, is the tickets for sales supposed to be the remainder of tickets or the amount the buyer bought? For now, the backend assumes the former, but if it's the latter, then it needs to be fixed
+
+- For create, we need to change our DTF output such that the username stated on that line "01_...." is actually the username being made and not the user who invoked that transaction

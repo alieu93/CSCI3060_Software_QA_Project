@@ -1,0 +1,6 @@
+admin___________AA_000010000
+fullstduser_____FS_000099999
+buystduser______BS_000999900
+sellstduser_____SS_001000000
+user001_________FS_000000000
+user002_________FS_001000050
